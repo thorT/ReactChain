@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43720CCD1D7EA87A00528D58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43720CCC1D7EA87A00528D58 /* main.m */; };
+		43720CD01D7EA87A00528D58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43720CCF1D7EA87A00528D58 /* AppDelegate.m */; };
+		43720CD31D7EA87A00528D58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43720CD21D7EA87A00528D58 /* ViewController.m */; };
+		43720CD61D7EA87A00528D58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43720CD41D7EA87A00528D58 /* Main.storyboard */; };
+		43720CD81D7EA87A00528D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43720CD71D7EA87A00528D58 /* Assets.xcassets */; };
+		43720CDB1D7EA87A00528D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43720CD91D7EA87A00528D58 /* LaunchScreen.storyboard */; };
+		43720CE41D7EA8CD00528D58 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 43720CE31D7EA8CD00528D58 /* Calculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43720CC81D7EA87900528D58 /* ReactChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43720CCC1D7EA87A00528D58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		43720CCE1D7EA87A00528D58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		43720CCF1D7EA87A00528D58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		43720CD11D7EA87A00528D58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		43720CD21D7EA87A00528D58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		43720CD51D7EA87A00528D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43720CD71D7EA87A00528D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43720CDA1D7EA87A00528D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43720CDC1D7EA87A00528D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43720CE21D7EA8CD00528D58 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		43720CE31D7EA8CD00528D58 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43720CC51D7EA87900528D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43720CBF1D7EA87900528D58 = {
+			isa = PBXGroup;
+			children = (
+				43720CCA1D7EA87A00528D58 /* ReactChain */,
+				43720CC91D7EA87900528D58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43720CC91D7EA87900528D58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43720CC81D7EA87900528D58 /* ReactChain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43720CCA1D7EA87A00528D58 /* ReactChain */ = {
+			isa = PBXGroup;
+			children = (
+				43720CCE1D7EA87A00528D58 /* AppDelegate.h */,
+				43720CCF1D7EA87A00528D58 /* AppDelegate.m */,
+				43720CD11D7EA87A00528D58 /* ViewController.h */,
+				43720CD21D7EA87A00528D58 /* ViewController.m */,
+				43720CE21D7EA8CD00528D58 /* Calculator.h */,
+				43720CE31D7EA8CD00528D58 /* Calculator.m */,
+				43720CD41D7EA87A00528D58 /* Main.storyboard */,
+				43720CD71D7EA87A00528D58 /* Assets.xcassets */,
+				43720CD91D7EA87A00528D58 /* LaunchScreen.storyboard */,
+				43720CDC1D7EA87A00528D58 /* Info.plist */,
+				43720CCB1D7EA87A00528D58 /* Supporting Files */,
+			);
+			path = ReactChain;
+			sourceTree = "<group>";
+		};
+		43720CCB1D7EA87A00528D58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43720CCC1D7EA87A00528D58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43720CC71D7EA87900528D58 /* ReactChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43720CDF1D7EA87A00528D58 /* Build configuration list for PBXNativeTarget "ReactChain" */;
+			buildPhases = (
+				43720CC41D7EA87900528D58 /* Sources */,
+				43720CC51D7EA87900528D58 /* Frameworks */,
+				43720CC61D7EA87900528D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactChain;
+			productName = ReactChain;
+			productReference = 43720CC81D7EA87900528D58 /* ReactChain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43720CC01D7EA87900528D58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = thor;
+				TargetAttributes = {
+					43720CC71D7EA87900528D58 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 43720CC31D7EA87900528D58 /* Build configuration list for PBXProject "ReactChain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43720CBF1D7EA87900528D58;
+			productRefGroup = 43720CC91D7EA87900528D58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43720CC71D7EA87900528D58 /* ReactChain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43720CC61D7EA87900528D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43720CDB1D7EA87A00528D58 /* LaunchScreen.storyboard in Resources */,
+				43720CD81D7EA87A00528D58 /* Assets.xcassets in Resources */,
+				43720CD61D7EA87A00528D58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43720CC41D7EA87900528D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43720CD31D7EA87A00528D58 /* ViewController.m in Sources */,
+				43720CE41D7EA8CD00528D58 /* Calculator.m in Sources */,
+				43720CD01D7EA87A00528D58 /* AppDelegate.m in Sources */,
+				43720CCD1D7EA87A00528D58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43720CD41D7EA87A00528D58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43720CD51D7EA87A00528D58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43720CD91D7EA87A00528D58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43720CDA1D7EA87A00528D58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43720CDD1D7EA87A00528D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		43720CDE1D7EA87A00528D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43720CE01D7EA87A00528D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReactChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thor.www.ReactChain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43720CE11D7EA87A00528D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ReactChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thor.www.ReactChain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43720CC31D7EA87900528D58 /* Build configuration list for PBXProject "ReactChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43720CDD1D7EA87A00528D58 /* Debug */,
+				43720CDE1D7EA87A00528D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43720CDF1D7EA87A00528D58 /* Build configuration list for PBXNativeTarget "ReactChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43720CE01D7EA87A00528D58 /* Debug */,
+				43720CE11D7EA87A00528D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43720CC01D7EA87900528D58 /* Project object */;
+}
